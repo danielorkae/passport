@@ -6,6 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Client extends Model
 {
+    use UuidAsPrimaryKey;
+
     /**
      * The database table used by the model.
      *
