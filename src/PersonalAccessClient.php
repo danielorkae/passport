@@ -3,6 +3,7 @@
 namespace Laravel\Passport;
 
 use Illuminate\Database\Eloquent\Model;
+use Webpatser\Uuid;
 
 class PersonalAccessClient extends Model
 {
